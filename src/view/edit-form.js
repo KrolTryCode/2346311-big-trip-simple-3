@@ -22,7 +22,6 @@ const getTitle = (isEditForm, isDeleting) => {
   if (!isEditForm) {
     return 'Cancel';
   }
-
   return (isDeleting) ? 'Deleting...' : 'Delete';
 };
 
